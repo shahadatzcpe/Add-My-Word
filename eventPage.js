@@ -3,7 +3,7 @@ var menuItem = {
     "title": "Add to my words",
     "contexts": ["selection"]
 };
-var apiUrl = 'http://127.0.0.1:8000/api/store-word'
+var apiUrl = 'http://daynight.bahramkhan.com/api/store-word'
 
 chrome.contextMenus.create(menuItem);
 
